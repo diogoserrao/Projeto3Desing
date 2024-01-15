@@ -1,0 +1,47 @@
+.corpo {
+  display: flex;
+  background-color: #f2f2f2;
+  padding: 40px;
+  gap: 40px;
+}
+
+.alinhamento {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+
+  margin: 0 auto;
+}
+.input {
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.botao {
+  background-color: black;
+  border-radius: 2px;
+  color: white;
+  padding: 6px 16px;
+}
+
+@keyframes mudarBackground {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: green;
+  }
+}
+
+.botao:hover {
+  background-color: green;
+  animation: mudarBackground 0.2s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+  .corpo {
+    flex-direction: column;
+  }
+}

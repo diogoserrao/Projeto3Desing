@@ -7,8 +7,7 @@ import { RouterView } from "vue-router";
     <div class="cabecalho">
       <div class="esquerda">
         <a href="/" class="titulo">ECO-ESCOLAS</a>
-        <div>Como Reciclar</div>
-        <div>Beneficios</div>
+        <a href="/pesquisa">Pesquisar</a>
       </div>
       <div class="direita">
         <a href="/login" class="login">Login</a>
